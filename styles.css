@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: teal;
+}
+main {
+  width: 45%;
+  height: 55vh;
+  background-color: white;
+  margin: 12vh auto;
+  padding: 3rem 4rem;
+  overflow: hidden;
+  position: relative;
+}
+.bicycle img {
+  position: absolute;
+  bottom: -10rem;
+  width: 90%;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15rem;
+  margin-bottom: 1.5rem;
+}
+.header h1 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.order {
+  margin-top: 2.2rem;
+}
+
+span {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 700;
+  font-size: 1.2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.order h2 {
+  /* margin-top: 1rem; */
+  font-size: 1rem;
+}
+.vintage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
